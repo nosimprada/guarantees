@@ -728,7 +728,7 @@
                     <a href="#" id="about-link">О нас</a>
                     <a href="#" id="models-link">Модели🦋</a>
                     <a id="orders-link" href="#">Заказы</a>
-                    <a href="#guarantees">Гарантии</a>
+                    <a id="support-link" href="#">Тех.Поддержка</a>
                 </div>
             </div>
             <div class="right-section">
@@ -871,6 +871,10 @@
                 const aboutLink = document.getElementById('about-link');
                 if (aboutLink) {
                     aboutLink.href = `https://nosimprada.github.io/about/?tg_id=${tgId}`;
+                }
+                const supportLink = document.getElementById('support-link');
+                if (aboutLink) {
+                    supportLink.href = `https://nosimprada.github.io/support/?tg_id=${tgId}`;
                 }
                 
                 const ordersButton = document.getElementById('my-orders-button');
